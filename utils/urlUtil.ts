@@ -1,0 +1,1 @@
+export const lenderUrl =  `api/lenders`;
