@@ -12,7 +12,7 @@ type LenderFixture = {
   slug: string;
 };
 
-context('Home Page', () => {
+context('Lender', () => {
   before(() => {
     cy.fixture('lenders').then((lenders: LenderFixture) => {
       this.lenders = lenders;

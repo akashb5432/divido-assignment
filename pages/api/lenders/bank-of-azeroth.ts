@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 import { LenderGetResponse, LenderPostResponse } from 'lib/types';
 
-export const bankOfAzerothData: any = {
+export const bankOfAzerothData: LenderGetResponse = {
   name: 'Bank of Azeroth',
   fields: [
     { name: 'first_name', type: 'text', required: true },
